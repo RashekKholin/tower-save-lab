@@ -4,7 +4,7 @@ Blueprints, challenge solutions, regional progression, resource farming, Power P
 
 ## Compatibility and verification
 
-The current official tools use game data from v1.0.15. An important compatibility issue is that v0.45.0 changed the game's import/export system, and version 1.0 broke Turbo Exec, an enhancement required by some older automation scripts. Consequently, an import string appearing in a community guide does not guarantee that it works in the current game.&#x20;
+The current official tools use game data from v1.0.15. An important compatibility issue is that v0.45.0 changed the game's import/export system, and version 1.0 broke Turbo Exec, an enhancement required by some older automation scripts. Consequently, an import string appearing in a community guide does not guarantee that it works in the current game.
 
 [image](https://www.google.com/s2/favicons?domain=https://www.perfecttower2.com\&sz=32)
 
@@ -20,7 +20,7 @@ I'll distinguish three categories throughout the catalog:
 
 ## 1. Power Plant yellowprints
 
-The community wiki publishes five Power Plant layouts with actual import codes, costs, capacities, and prerequisites. Its mid-game layout is explicitly marked outdated.&#x20;
+The community wiki publishes five Power Plant layouts with actual import codes, costs, capacities, and prerequisites. Its mid-game layout is explicitly marked outdated.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -38,7 +38,7 @@ The Perfect Tower II
 
 The MT descriptions are approximate, not developer-stated unlock tiers. Costs exclude purchasing technology upgrades and unlocking the relevant building facilities.
 
-The source also reports average production of 132,600 power/sec for Starter and 2.149 × 10¹⁶ power/sec for the late-game layout after reaching maximum capacity. Production for the other three layouts is not specified.&#x20;
+The source also reports average production of 132,600 power/sec for Starter and 2.149 × 10¹⁶ power/sec for the late-game layout after reaching maximum capacity. Production for the other three layouts is not specified.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -48,7 +48,7 @@ The Perfect Tower II
 
 ### Complete Power Plant import strings
 
-Each block contains the published yellowprint code. Copy the entire line into the Power Plant's import interface. The codes are transcribed from the community wiki; I have not verified them in a live v1.0.15 game.&#x20;
+Each block contains the published yellowprint code. Copy the entire line into the Power Plant's import interface. The codes are transcribed from the community wiki; they have not been tested here in-game.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -88,11 +88,11 @@ Late-game Infinity — 3 × 10⁴⁸ yellow
 
 How to choose: Use Starter for initial Power Plant development; Cheaper Plasma after unlocking the relevant second-floor technology; No-Dyson if you specifically want a plasma configuration that does not depend on Dyson Sphere bonuses; Late-game Infinity only after meeting its extensive prerequisites.
 
-You can compare and reconstruct layouts using the [official Power Grid Designer](https://www.perfecttower2.com/tools/power-grid/?utm_source=chatgpt.com).
+You can compare and reconstruct layouts using the [official Power Grid Designer](https://www.perfecttower2.com/tools/power-grid/).
 
 ## 2. Challenge blueprint database: all 15 regions
 
-The Bluecats community collection is the most complete public repository I could verify for hard-mode challenges.
+The Bluecats community collection is the most complete public repository documented here for hard-mode challenges.
 
 # 90/90
 
@@ -108,9 +108,9 @@ Earlier-access solutions with 14 combinations missing
 
 Complete code collections
 
-[All 90 pre-Infinity hard-mode challenge solutions](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Inf/README.md?utm_source=chatgpt.com)[Pre-Era hard-mode challenge solutions](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Era/README.md?utm_source=chatgpt.com)[Additional fast hard-mode solutions](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Speed/README.md?utm_source=chatgpt.com)
+[All 90 pre-Infinity hard-mode challenge solutions](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Inf/README.md)[Pre-Era hard-mode challenge solutions](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Era/README.md)[Additional fast hard-mode solutions](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Speed/README.md)
 
-I inspected the code blocks themselves, not just the page headings. The pre-Infinity page contains published codes covering all 90 challenges, including several alternatives. The Speed collection has only three populated blueprint codes; its other entries are placeholders.&#x20;
+Only populated code blocks count toward coverage. The pre-Infinity page contains published codes covering all 90 challenges, including several alternatives. The Speed collection has only three populated blueprint codes; its other entries are placeholders.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -146,7 +146,7 @@ The Pre-Era page explicitly warns that some solutions require modules that are d
 YzEtMTtiYXJyaWVyLmZpcmU7Zm91bmRhdGlvbi5tYWdtYTtzaGllbGQuYmFzaWM7Zm91bmRhdGlvbi5kaWFtb25k
 ```
 
-Source: [Forest pre-Era builds](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Era/README.md?utm_source=chatgpt.com#forest).
+Source: [Forest pre-Era builds](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Era/README.md#forest).
 
 ### Example: Forest Challenge 2, pre-Era hard mode
 
@@ -154,7 +154,7 @@ Source: [Forest pre-Era builds](https://github.com/bluecats-Perfect-Tower-2/blue
 Ncg7DoAgDADQqxB2iTjKUYxD5aONQAkUF+Pdndhe3iuP2H2pmLnJVWzS6mkRF1QntJoNMIO9VeqRsV3EIwJWP9yK986cGFg9FC1kMoF6dsBIWSU4E8j9+wE=
 ```
 
-The author marks this one No Accel, meaning Wave Streaming should be turned off, and lists a slower alternative.&#x20;
+The author marks this one No Accel, meaning Wave Streaming should be turned off, and lists a slower alternative.
 
 [image](https://www.google.com/s2/favicons?domain=https://raw.githubusercontent.com\&sz=32)
 
@@ -168,7 +168,7 @@ The repository does not provide confirmed pre-Era import codes for these 14 comb
 
 \- Winter C4, C5, C6; High Mountain C5; Jungle C3 and C6; Metallic Ruins C3; Beach C5; Ocean C2; Neutral C1; Dark Realm C1; Universe C1 and C3; Chaos C1.
 
-Each has a published pre-Infinity hard-mode solution in the more complete collection. For ordinary (non-hard-mode) challenge imports, the [ExpertLove community guide](https://github.com/ExpertLove/perfect-tower2-full-guide/blob/main/README.md?utm_source=chatgpt.com) and the [Challenge wiki](https://wiki.perfecttower2.com/Challenge?utm_source=chatgpt.com) contain additional examples, but neither establishes current, complete normal-mode coverage.&#x20;
+Each has a published pre-Infinity hard-mode solution in the more complete collection. For ordinary (non-hard-mode) challenge imports, the [ExpertLove community guide](https://github.com/ExpertLove/perfect-tower2-full-guide/blob/main/README.md) and the [Challenge wiki](https://wiki.perfecttower2.com/Challenge) contain additional examples, but neither establishes current, complete normal-mode coverage.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -178,7 +178,7 @@ ExpertLove/perfect-tower2-full-guide · GitHub+1
 
 ## 3. Blueprints for Military Tier milestones and farming
 
-The following five reusable blueprints are available, with complete import strings, in the [Bluecats blueprint collection](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md?utm_source=chatgpt.com). These are more useful for general progression than having a separate build for each region.&#x20;
+The following five reusable blueprints are available, with complete import strings, in the [Bluecats blueprint collection](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md). These are more useful for general progression than having a separate build for each region.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -192,7 +192,7 @@ MT7 → MT8
 
 Designed to reach Forest Easy Wave 100B with tier-5 modules and minimal permanent stat bonuses. Prioritize this when unlocking Era is the next military objective.
 
-[Copy DeathCat import code](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md?utm_source=chatgpt.com#deathcat)
+[Copy DeathCat import code](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md#deathcat)
 
 AllBlue — Era progression
 
@@ -200,7 +200,7 @@ MT12+ according to the author; not designed for Infinity 1+
 
 A broad offensive blueprint for pre-Infinity combat. Requires adjustments or accompanying automation for Era Shield behavior. Optional advanced modules can improve it.
 
-[Copy AllBlue blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md?utm_source=chatgpt.com#allblue)
+[Copy AllBlue blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md#allblue)
 
 RpCat — Infinity combat and progression
 
@@ -208,7 +208,7 @@ Early Infinity onward; scales better with later unlocks
 
 A self-sustaining build. It intentionally benefits from specific enemy attack-speed interactions rather than conventional tower attacks. The author provides a replacement-module recipe for players missing Power Conversion and notes additional requirements around the Light Stone Infinity perk.
 
-[Copy RpCat blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md?utm_source=chatgpt.com#rpcat)
+[Copy RpCat blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md#rpcat)
 
 SpookyCat — High-speed kill farming
 
@@ -216,7 +216,7 @@ MT12+; particularly Halloween event farming
 
 Optimized for fast kills, especially with Halloween Cauldron settings. The author recommends staying below Infinity 1 because Infinity mechanics slow its kill rate. Includes survival and damage substitutions.
 
-[Copy SpookyCat blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md?utm_source=chatgpt.com#spookycat)
+[Copy SpookyCat blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md#spookycat)
 
 EveryCat — Find missing modules
 
@@ -224,7 +224,7 @@ Module collection utility; not a combat build
 
 Deliberately includes virtually every module so the import preview can show which ones you have not unlocked. This is especially useful when a military promotion requires a large module collection.
 
-[Copy EveryCat diagnostic blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md?utm_source=chatgpt.com#everycat)
+[Copy EveryCat diagnostic blueprint](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20BPs/README.md#everycat)
 
 ### Which blueprints cover each MT?
 
@@ -239,7 +239,7 @@ Deliberately includes virtually every module so the import preview can show whic
 | MT12–MT14, early Infinity  | RpCat                                                    | Published purpose-built code                             |
 | MT14–MT15, Infinity 25     | MT14–15 community guide, RpCat, Infinity farming scripts | Historical, not current-version verified                 |
 
-Other relevant milestone collections are [MT11–13 Era/Infinity blueprint and script](https://wiki.perfecttower2.com/Military_Tier_11-13?utm_source=chatgpt.com), [MT14–15 Infinity farming blueprint and script](https://wiki.perfecttower2.com/Military_Tier_14-15?utm_source=chatgpt.com), and [ExpertLove's Wave 100B and progression builds](https://github.com/ExpertLove/perfect-tower2-full-guide/blob/main/README.md?utm_source=chatgpt.com). Those pages contain import strings or linked packages alongside their instructions.&#x20;
+Other relevant milestone collections are [MT11–13 Era/Infinity blueprint and script](https://wiki.perfecttower2.com/Military_Tier_11-13), [MT14–15 Infinity farming blueprint and script](https://wiki.perfecttower2.com/Military_Tier_14-15), and [ExpertLove's Wave 100B and progression builds](https://github.com/ExpertLove/perfect-tower2-full-guide/blob/main/README.md). Those pages contain import strings or linked packages alongside their instructions.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -249,7 +249,7 @@ The Perfect Tower II+2
 
 ## 4. Resource farming: which code to use for every resource
 
-An important distinction: a tower blueprint earns resources through Tower Testing, but Factory producers can manufacture specific resource types passively. A Workshop blueprint is not a substitute for the required Factory producers, Trading Post bonuses, or conversion systems.&#x20;
+An important distinction: a tower blueprint earns resources through Tower Testing, but Factory producers can manufacture specific resource types passively. A Workshop blueprint is not a substitute for the required Factory producers, Trading Post bonuses, or conversion systems.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -279,7 +279,7 @@ The Perfect Tower II+1
 
 The central script for producing resource-generating equipment is d0sboots' Factory Automation:
 
-[Factory Automation — complete importable script package](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#factory-automation)
+[Factory Automation — complete importable script package](https://github.com/d0sboots/PerfectTower/blob/main/README.md#factory-automation)
 
 What it does: Automatically processes ores and dust, crafts intermediate parts, produces machines and producers, and uses items already in inventory before crafting replacements.
 
@@ -287,7 +287,7 @@ How to use: Import the package and enable its two scripts. Open Factory; choose 
 
 Prerequisites: Facility AI (MT4), sufficient materials, relevant Factory machines, and the Chemical Lumps exotic skill for the documented dust-handling method.
 
-When useful: Immediately after MT4, increasingly valuable when manufacturing tier-5 producers and other high-tier equipment.&#x20;
+When useful: Immediately after MT4, increasingly valuable when manufacturing tier-5 producers and other high-tier equipment.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -297,7 +297,7 @@ GitHub
 
 Factory planning tools
 
-[Official Factory Planner](https://www.perfecttower2.com/tools/factory-planner/?utm_source=chatgpt.com)[Factory producer outputs and recipes](https://wiki.perfecttower2.com/Factory?utm_source=chatgpt.com)
+[Official Factory Planner](https://www.perfecttower2.com/tools/factory-planner/)[Factory producer outputs and recipes](https://wiki.perfecttower2.com/Factory)
 
 These help determine material requirements before activating the crafting script, including machines, ores, shards, and crafting time.
 
@@ -305,7 +305,7 @@ These help determine material requirements before activating the crafting script
 
 For module fragments, use a strong Infinity combat blueprint and upgrade the Infinity Grid and Anvil as progression allows. For elemental essence, use the corresponding Laboratory/Era experiments and any appropriate supported automation. For Power Stones, Museum production and combining are relevant; for crates, Trading Post systems matter more than Workshop combat builds.
 
-I found scripts for several of these workflows, but not a verified, current-version, directly importable script for every individual resource and currency. The next section identifies available packages and their limitations.
+Scripts cover several of these workflows, but current-version imports are not available for every resource and currency. The next section identifies available packages and their limitations.
 
 ## 5. Facility AI script library
 
@@ -313,7 +313,7 @@ All Facility AI scripts require the AI functionality unlocked at MT4. Some addit
 
 ### A. Bluecats automation packages
 
-Source: [Bluecats AI collection and import codes](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20AIs/README.md?utm_source=chatgpt.com)
+Source: [Bluecats AI collection and import codes](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/bluecat%20AIs/README.md)
 
 | Script      | What it does                                                                                                                | When to use                                                        |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -330,26 +330,26 @@ Not all entries are standalone import strings: some are script packages or examp
 
 ### B. d0sboots' automation collection
 
-Primary source: [d0sboots — AI Scripts and Utilities](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com)
+Primary source: [d0sboots — AI Scripts and Utilities](https://github.com/d0sboots/PerfectTower/blob/main/README.md)
 
 | Script                                                                                                                                   | Description and use                                                                                                            | Compatibility note                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------- |
-| [Simple Skill](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#simple-skill-script)                  | Constantly activates the first equipped active skill during Tower Testing. MT4+, useful for almost any active-skill blueprint. | No Turbo Exec requirement stated    |
-| [Factory Automation](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#factory-automation)             | Crafts Factory items, machines and producers in batches using keyboard controls.                                               | Requires supporting Factory skills  |
-| [Auto Miner V3](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#auto-mining-script-v3)               | Automatically digs every available Mine tile upon entering the Mine.                                                           | MT4+; can cause lag                 |
-| [Example Miner](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#example-miner)                       | Simpler Mine automation example, useful for learning how Mine commands work.                                                   | Educational and practical           |
-| [Museum Combiner](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#museum-combiner-v4)                | Buys and combines Power Stones according to a configured budget.                                                               | Outdated: requires Turbo Exec       |
-| [Auto Adventure](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#auto-adventure)                     | Automates actions for the Adventure minigame.                                                                                  | Verify Adventure prerequisites      |
-| [Adventure Map](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#adventure-map)                       | Assists with navigation in Adventure.                                                                                          | Requires associated Adventure setup |
-| [Timed Task Looping](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#timed-task-looping)             | Executes configurable periodic tasks, such as checking buildings or collecting production.                                     | MT4+; customize intervals           |
-| [Autoclicker](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#autoclicker)                           | Rapidly clicks the current mouse position, toggled with C.                                                                     | MT4+; don't combine with Turbo Exec |
-| [Factory Auto-Trasher](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#factory-auto-trasher)         | Removes unwanted items, especially from Mine Floor 2.                                                                          | Can work without Turbo Exec         |
-| [Dust Up-tierer](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#dust-up-tierer)                     | Crushes ores and converts dust toward configured tier ratios.                                                                  | MT4+; supports Factory workflows    |
-| [Button Coordinate Finder](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#button-coordinate-finder) | Identifies interface coordinates for developing mouse-based scripts.                                                           | Primarily a script-development tool |
-| [AI Benchmarker](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#ai-benchmarker)                     | Benchmarks AI execution performance to identify script-speed limitations.                                                      | Diagnostic utility                  |
-| [RNG Manipulation](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#rng-manipulation)                 | Manipulates specific random-event behavior involving Rak's Curse.                                                              | Specialized; version-dependent      |
-| [Auto Era Disabler](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#auto-era-disabler)               | Disables Era powers as XP becomes available, following a configurable priority order.                                          | MT8+; useful for Era progression    |
-| [Trading Post Crate Spam](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#trading-post-crate-spam)   | Repeatedly alternates trading and idle states to accumulate crates.                                                            | Outdated: requires Turbo Exec       |
+| [Simple Skill](https://github.com/d0sboots/PerfectTower/blob/main/README.md#simple-skill-script)                  | Constantly activates the first equipped active skill during Tower Testing. MT4+, useful for almost any active-skill blueprint. | No Turbo Exec requirement stated    |
+| [Factory Automation](https://github.com/d0sboots/PerfectTower/blob/main/README.md#factory-automation)             | Crafts Factory items, machines and producers in batches using keyboard controls.                                               | Requires supporting Factory skills  |
+| [Auto Miner V3](https://github.com/d0sboots/PerfectTower/blob/main/README.md#auto-mining-script-v3)               | Automatically digs every available Mine tile upon entering the Mine.                                                           | MT4+; can cause lag                 |
+| [Example Miner](https://github.com/d0sboots/PerfectTower/blob/main/README.md#example-miner)                       | Simpler Mine automation example, useful for learning how Mine commands work.                                                   | Educational and practical           |
+| [Museum Combiner](https://github.com/d0sboots/PerfectTower/blob/main/README.md#museum-combiner-v4)                | Buys and combines Power Stones according to a configured budget.                                                               | Outdated: requires Turbo Exec       |
+| [Auto Adventure](https://github.com/d0sboots/PerfectTower/blob/main/README.md#auto-adventure)                     | Automates actions for the Adventure minigame.                                                                                  | Verify Adventure prerequisites      |
+| [Adventure Map](https://github.com/d0sboots/PerfectTower/blob/main/README.md#adventure-map)                       | Assists with navigation in Adventure.                                                                                          | Requires associated Adventure setup |
+| [Timed Task Looping](https://github.com/d0sboots/PerfectTower/blob/main/README.md#timed-task-looping)             | Executes configurable periodic tasks, such as checking buildings or collecting production.                                     | MT4+; customize intervals           |
+| [Autoclicker](https://github.com/d0sboots/PerfectTower/blob/main/README.md#autoclicker)                           | Rapidly clicks the current mouse position, toggled with C.                                                                     | MT4+; don't combine with Turbo Exec |
+| [Factory Auto-Trasher](https://github.com/d0sboots/PerfectTower/blob/main/README.md#factory-auto-trasher)         | Removes unwanted items, especially from Mine Floor 2.                                                                          | Can work without Turbo Exec         |
+| [Dust Up-tierer](https://github.com/d0sboots/PerfectTower/blob/main/README.md#dust-up-tierer)                     | Crushes ores and converts dust toward configured tier ratios.                                                                  | MT4+; supports Factory workflows    |
+| [Button Coordinate Finder](https://github.com/d0sboots/PerfectTower/blob/main/README.md#button-coordinate-finder) | Identifies interface coordinates for developing mouse-based scripts.                                                           | Primarily a script-development tool |
+| [AI Benchmarker](https://github.com/d0sboots/PerfectTower/blob/main/README.md#ai-benchmarker)                     | Benchmarks AI execution performance to identify script-speed limitations.                                                      | Diagnostic utility                  |
+| [RNG Manipulation](https://github.com/d0sboots/PerfectTower/blob/main/README.md#rng-manipulation)                 | Manipulates specific random-event behavior involving Rak's Curse.                                                              | Specialized; version-dependent      |
+| [Auto Era Disabler](https://github.com/d0sboots/PerfectTower/blob/main/README.md#auto-era-disabler)               | Disables Era powers as XP becomes available, following a configurable priority order.                                          | MT8+; useful for Era progression    |
+| [Trading Post Crate Spam](https://github.com/d0sboots/PerfectTower/blob/main/README.md#trading-post-crate-spam)   | Repeatedly alternates trading and idle states to accumulate crates.                                                            | Outdated: requires Turbo Exec       |
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -365,7 +365,7 @@ This script continually uses the first active skill during Tower Testing and is 
 lZFNb5tAEIb/i6++wBIqb6UcAIeFBCOg5rPqYWc3MtBdjIwBQ9T/XmG3UizlkOxpdt7RzDvPvK06dqrac7f6/nO1VcIxnvQ9TdURSLKnSHRguIZhGIQj+1RkybhNeQlp3INMNCaxCjI0l4IndMvTzI9B44KJSDAtakEye9G3kguQyUTTXV8grAAS0iL+AI2v5KmuGHK3lEU5wmdG7Ilm/gCVPnPneekRFegy5NLuvMZXmBR9MelNkYVujnDPtKiEJnyy6stMs1YEe2PNlO5OM2oFv59nWseNp/ntq4zXwZIneAoyfqRZJALhn2h66dhkTjzVe5rqTWDhGtBlYPXDR17mr3h5qceBIfGt2D9scoQ70FzMUdlyEq9jdG6BXGbXeVZB6svuGw/981dy5cq20s+AIhVI3PPMFzTVZ07snhtlDeh/7Jqf4n74kPtv0JIKSBxygrUic3tKkhKc6OhJtXy9mxOaweH9/9rv9ky7AYKrPB2X3aeFo9f44t5n+BI41zvg3Vaff4x3mhNY+Mbx8Pi4+vXnLw==
 ```
 
-Source: [d0sboots — Simple Skill Script](https://github.com/d0sboots/PerfectTower/blob/main/README.md?utm_source=chatgpt.com#simple-skill-script). Test after import and enable the script before starting Tower Testing.
+Source: [d0sboots — Simple Skill Script](https://github.com/d0sboots/PerfectTower/blob/main/README.md#simple-skill-script). Test after import and enable the script before starting Tower Testing.
 
 ### Example: Basic challenge skill spam
 
@@ -375,15 +375,15 @@ This script is published at the top of both Bluecats hard-mode challenge collect
 DmNoYWxsZW5nZSBzcGFtAQAAAAZ3YWtldXAAAAAACgAAABh0b3dlci5tb2R1bGUudXNlcG9zaXRpb24IY29uc3RhbnQCAQAAAAhjb25zdGFudAUAAAAAAAAAABh0b3dlci5tb2R1bGUudXNlcG9zaXRpb24IY29uc3RhbnQCAgAAAAhjb25zdGFudAUAAAAAAAAAABh0b3dlci5tb2R1bGUudXNlcG9zaXRpb24IY29uc3RhbnQCBAAAAAhjb25zdGFudAUAAAAAAAAAABd0b3dlci5tb2R1bGUudXNlaW5zdGFudAhjb25zdGFudAICAAAAF3Rvd2VyLm1vZHVsZS51c2VpbnN0YW50CGNvbnN0YW50AgEAAAAXdG93ZXIubW9kdWxlLnVzZWluc3RhbnQCAwAAAAxnZW5lcmljLmdvdG8IY29uc3RhbnQCAAAAABd0b3dlci5tb2R1bGUudXNlaW5zdGFudAhjb25zdGFudAIEAAAAF3Rvd2VyLm1vZHVsZS51c2VpbnN0YW50CGNvbnN0YW50AgUAAAAXdG93ZXIubW9kdWxlLnVzZWluc3RhbnQCBgAAAA==
 ```
 
-Source: [Pre-Infinity challenge collection](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Inf/README.md?utm_source=chatgpt.com). Appropriate only for builds whose equipped active skills match its expected positions.
+Source: [Pre-Infinity challenge collection](https://github.com/bluecats-Perfect-Tower-2/bluecats-PerfectTower2-comp./blob/main/Challenges/Hardmode/Pre%20Inf/README.md). Appropriate only for builds whose equipped active skills match its expected positions.
 
 ## 6. Additional repositories with relevant scripts and import data
 
-[IgneousRed — Performance-oriented AI scripts](https://github.com/IgneousRed/PerfectTower?utm_source=chatgpt.com)
+[IgneousRed — Performance-oriented AI scripts](https://github.com/IgneousRed/PerfectTower)
 
 Applies to: MT4+, particularly Mine and Factory automation.
 
-Contains three Mine implementations (Perf, Norm, Golf), Factory Crusher/Mixer/Boiler scripts, specialized trash automation, and an associated scripting library. Some implementations are optimized for more available AI actions or require Turbo Exec; those dependencies must be checked before importing or compiling.&#x20;
+Contains three Mine implementations (Perf, Norm, Golf), Factory Crusher/Mixer/Boiler scripts, specialized trash automation, and an associated scripting library. Some implementations are optimized for more available AI actions or require Turbo Exec; those dependencies must be checked before importing or compiling.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -391,11 +391,11 @@ GitHub
 
 
 
-[rus9384 — Omni-Tower, Essence Clicker, Watchtower](https://github.com/rus9384/TPT2?utm_source=chatgpt.com)
+[rus9384 — Omni-Tower, Essence Clicker, Watchtower](https://github.com/rus9384/TPT2)
 
 Applies to: Tower automation, elemental essence, general blueprint support.
 
-Includes Omni-Tower AI, Essence Clicker, the Watchtower blueprint, and a scripting library. Some content is distributed as source/project files rather than a ready-to-paste import code.&#x20;
+Includes Omni-Tower AI, Essence Clicker, the Watchtower blueprint, and a scripting library. Some content is distributed as source/project files rather than a ready-to-paste import code.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -403,11 +403,11 @@ GitHub
 
 
 
-[Florin_TK — Tower Testing and BORF packages](https://github.com/dbollu/TPT2?utm_source=chatgpt.com)
+[Florin_TK — Tower Testing and BORF packages](https://github.com/dbollu/TPT2)
 
 Applies to: MT4+ and specialized combat automation.
 
-Contains Tower Testing scripts, BORF macro packages, and supporting library components. The author explicitly lists MT4 as the starting prerequisite for its primary automation features.&#x20;
+Contains Tower Testing scripts, BORF macro packages, and supporting library components. The author explicitly lists MT4 as the starting prerequisite for its primary automation features.
 
 [image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
@@ -415,11 +415,11 @@ GitHub
 
 
 
-[Community AI Scripts Guide](https://wiki.perfecttower2.com/AI_Scripts_Guide?utm_source=chatgpt.com)
+[Community AI Scripts Guide](https://wiki.perfecttower2.com/AI_Scripts_Guide)
 
 Applies to: Factory automation, mining, Museum upgrades, Adventure, and other common tasks.
 
-A directory of scripts and their usage information. Several links point to older code, so treat it as a discovery resource rather than a verified v1.0.15 catalog.&#x20;
+A directory of scripts and their usage information. Several links point to older code, so treat it as a discovery resource rather than a verified v1.0.15 catalog.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -427,11 +427,11 @@ The Perfect Tower II
 
 
 
-[Historical AI Script Repository](https://wiki.perfecttower2.com/AI_Script_Repository?utm_source=chatgpt.com)
+[Historical AI Script Repository](https://wiki.perfecttower2.com/AI_Script_Repository)
 
 Applies to: Early Tower Testing, active skills, and scripting examples.
 
-Explicitly marked obsolete by the wiki. Useful for understanding AI logic, but not recommended as a source of ready-to-use current scripts.&#x20;
+Explicitly marked obsolete by the wiki. Useful for understanding AI logic, but not recommended as a source of ready-to-use current scripts.
 
 [image](https://www.google.com/s2/favicons?domain=https://wiki.perfecttower2.com\&sz=32)
 
@@ -445,21 +445,21 @@ Tower blueprints
 
 Open Workshop or the Tower Testing blueprint interface, select Import, and paste the complete blueprint code. Confirm which modules are missing and replace them before running it.
 
-[Official blueprint builder](https://www.perfecttower2.com/tools/blueprints/?utm_source=chatgpt.com)
+[Official blueprint builder](https://www.perfecttower2.com/tools/blueprints/)
 
 Power Plant layouts
 
 Unlock the Yellowprints skill, then use the import functionality in the Power Plant. The imported layout still requires the corresponding component technology and enough yellow resources to construct.
 
-[Official Power Grid Designer](https://www.perfecttower2.com/tools/power-grid/?utm_source=chatgpt.com)
+[Official Power Grid Designer](https://www.perfecttower2.com/tools/power-grid/)
 
 Facility AI scripts
 
 Unlock AI at MT4, paste the import code into the game's AI import interface, enable the script/package, check its trigger impulses, and open the necessary building. Modify its settings where the author's instructions require it.
 
-[Facility AI mechanics and limitations](https://wiki.perfecttower2.com/AI?utm_source=chatgpt.com)
+[Facility AI mechanics and limitations](https://wiki.perfecttower2.com/AI)
 
-The official [Perfect Tower II tools directory](https://www.perfecttower2.com/tools/?utm_source=chatgpt.com) links the module database, blueprint builder, Factory planner, Power Grid designer, enemy calculator, and script editor. The earlier direct Factory Planner subpage link could not be independently verified; use this tools directory instead.&#x20;
+The official [Perfect Tower II tools directory](https://www.perfecttower2.com/tools/) links the module database, blueprint builder, Factory planner, Power Grid designer, enemy calculator, and script editor. The earlier direct Factory Planner subpage link could not be independently verified; use this tools directory instead.
 
 [image](https://www.google.com/s2/favicons?domain=https://www.perfecttower2.com\&sz=32)
 
@@ -473,9 +473,9 @@ The Perfect Tower II+1
 
 Each line contains the source name and the original URL.
 
-&#x20;Copy all
+Copy all
 
-The linked repositories contain additional exact import strings, including packages too long to reproduce reliably in a single chat response.
+Complete published codes are available through Find & copy imports on every page. Author links are retained for credits and documentation.
 
 ## 9. Completeness and remaining gaps
 
@@ -492,6 +492,6 @@ The linked repositories contain additional exact import strings, including packa
 | Separate import code for every resource/currency     | Not established; many depend on Factory producers and building mechanics |
 | Live verification on v1.0.15                         | Not performed                                                            |
 
-For The Perfect Blueprint, the strongest initial library would combine the 90 pre-Infinity challenge entries, 76 pre-Era entries, five Power Plant yellowprints, the five general-purpose Bluecats blueprints, and the Facility AI script records. Each record should carry the original URL, author when available, progression requirements, code type, usage instructions, and a compatibility status.
+Search the local import library by build name, region, category or progression stage. Each entry includes its source and import format.
 
-The linked source files provide the full strings for many more entries than are reproduced inline here. I have not fabricated missing codes or classified untested community imports as guaranteed to work.
+Some authors publish editable workspaces instead of game import strings. These are labeled separately; compatibility notes still apply.
