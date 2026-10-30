@@ -1,6 +1,6 @@
 services:
   - type: web
     runtime: static
-    name: tower-save-lab
-    buildCommand: node --check dist/app.js && node --check dist/codec.js
+    name: the-perfect-blueprint
+    buildCommand: node build.cjs && node --check dist/app.js && node --check dist/codec.js
     staticPublishPath: dist
