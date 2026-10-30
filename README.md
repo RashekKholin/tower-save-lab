@@ -1,33 +1,13 @@
 # The Perfect Blueprint
 
-A browser-local save editor and expandable player resource for The Perfect Tower II.
+Guides, walkthroughs and community imports for The Perfect Tower II.
 
-## Structure
+Run `node build.cjs` and `node guide-test.cjs`. Serve `dist/` over HTTP.
 
-- `/`: home
-- `/tools/`: tools directory
-- `/tools/save-editor/`: save editor
-- `/guides/`: published guides
-- `/walkthroughs/`: published walkthroughs (explicit empty state until content is added)
-- `content/guides.json`: content catalog
-- `content/*.html`: article bodies and editor template
-- `build.cjs`: shared page shell, navigation and static page generation
-- `dist/`: deployable files; editor assets live here
+The header theme toggle remembers a light/dark preference. Without a saved preference, it follows the device theme. `dist/app.js` contains only theme behavior.
 
-## Add a guide or walkthrough
+The save editor has been retired. Its former tool and help URLs redirect to Tools. No save parsing, modification or export functionality remains. The empty `dist/codec.js` compatibility file supports the legacy Render syntax-check command until the dashboard build command is synchronized with render.yaml.
 
-1. Write the article body in `content/my-topic.html`. Use heading levels starting at h2.
-2. Add a catalog entry with a unique lowercase hyphenated `slug`, `title`, `description`, `topic`, `kind` (`guides` or `walkthroughs`), `published`, and `body` filename.
-3. Run `node build.cjs`. Only published entries generate pages and directory cards.
-4. Commit the article, catalog and generated dist pages. Render currently serves committed dist assets and automatically deploys main. For builds that generate pages on Render, use `node build.cjs && node --check dist/app.js && node --check dist/codec.js`.
-
-## Check locally
-
-Run `node build.cjs`, then `node --check dist/app.js` and `node --check dist/codec.js`. Serve dist with any static HTTP server; root-relative links require an HTTP origin.
-Run `node test.cjs PATH_TO_PRIVATE_SAVE` and `node ui-test.cjs PATH_TO_PRIVATE_SAVE` for codec and UI logic checks. Never commit player saves. UI tests use a DOM stub and do not replace browser visual testing.
-
-## Save handling
-
-Processing stays in the browser. Originals are preserved and downloads create a new file. Custom unsupported records are preserved. Advanced byte editing requires format knowledge. The editor does not guarantee game-level consistency or platform achievements.
+Community script imports are distinct from save editing. Author credits and source references remain with the guides and import library.
 
 Independent of Fire Sword Studios.
