@@ -1,13 +1,19 @@
 # The Perfect Blueprint
 
-Guides, walkthroughs and community imports for The Perfect Tower II.
+An independent player resource for The Perfect Tower II.
 
-Run `node build.cjs` and `node guide-test.cjs`. Serve `dist/` over HTTP.
+## Available now
 
-The header theme toggle remembers a light/dark preference. Without a saved preference, it follows the device theme. `dist/app.js` contains only theme behavior.
+- Military Tier walkthroughs from MT0 through MT15
+- Community blueprint, layout and Facility AI import library
+- Search and copy controls on every page
+- Persistent light and dark themes
+- Source credits, requirements and compatibility notes
 
-The save editor has been retired. Its former tool and help URLs redirect to Tools. No save parsing, modification or export functionality remains. The empty `dist/codec.js` compatibility file supports the legacy Render syntax-check command until the dashboard build command is synchronized with render.yaml.
+## Development
 
-Community script imports are distinct from save editing. Author credits and source references remain with the guides and import library.
+Run `node build.cjs`, `node guide-test.cjs` and `node import-test.cjs`. Serve `dist/` over HTTP.
+
+`build.cjs` generates the shared page shell and directories. Guide content lives in `content/`. `dist/app.js` manages theme preferences.
 
 Independent of Fire Sword Studios.

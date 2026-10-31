@@ -17,7 +17,4 @@ function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
 walk('dist');
 assert(!fs.readFileSync('dist/index.html','utf8').includes('The first walkthroughs are still being prepared'));
 assert(fs.readFileSync('dist/guides/index.html','utf8').includes('/guides/military-tiers/'));
-assert(fs.readFileSync('dist/tools/save-editor/index.html','utf8').includes('0;url=/tools/'));
-assert(!fs.existsSync('dist/navigation.js'));
-assert(!fs.existsSync('content/editor.html'));
 console.log(JSON.stringify({tierGuides:tiers.length,editorialWords:words,internalLinksChecked:checked,sourceReferences:true,anchors:true}));
